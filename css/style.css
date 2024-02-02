@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fdf2e9;
+  background-color: #f6c1ff;
 
   
   padding: 0 4.8rem;
@@ -40,7 +40,7 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #cf711f;
+  color: #7f0094;
 }
 
 .main-nav-link.nav-cta:link,
@@ -48,12 +48,12 @@
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
-  background-color: #e67e22;
+  background-color: #7f0094;
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #cf711f;
+  background-color: #7f0094;
 }
 
 /* MOBILE */
@@ -99,7 +99,7 @@
 /******************************************************************************************************/
 
 .section-hero {
-  background-color: #fdf2e9;
+  background-color: #f6c1ff;
   padding: 4.8rem 0 9.6rem 0;
 }
 
@@ -121,6 +121,7 @@
 
 .hero-img {
   width: 100%;
+  border-radius: 12px;
 }
 
 .delivered-meals {
@@ -139,7 +140,7 @@
   width: 4.8rem;
   border-radius: 50%;
   margin-right: -1.6rem;
-  border: 3px solid #fdf2e9;
+  border: 3px solid #f6c1ff;
 }
 
 .delivered-imgs img:last-child {
@@ -152,7 +153,7 @@
 }
 
 .delivered-text span {
-  color: #cf711f;
+  color: #7f0094;
   font-weight: 700;
 }
 
@@ -210,7 +211,7 @@
   align-items: center;
   justify-content: center;
 }
-
+/* 
 .step-img-box::before,
 .step-img-box::after {
   content: "";
@@ -220,12 +221,12 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
+} */
+/* 
 .step-img-box::before {
   padding-bottom: 60%;
   width: 60%;
-  background-color: #fdf2e9;
+  background-color: #f6c1ff;
   z-index: -2;
 }
 
@@ -234,11 +235,11 @@
   width: 45%;
   background-color: #fae5d3;
   z-index: -1;
-}
+} */
 
 .step-img {
-  width: 35%;
-  
+  width: 75%;
+  border-radius: 12px;
 }
 
 /*******************************************************************************************************/
@@ -316,7 +317,7 @@
 .meal-icon {
   height: 2.4rem;
   width: 2.4rem;
-  color: #e67e22;
+  color: #7f0094;
 }
 
 .meal-img {
@@ -332,7 +333,7 @@
 /******************************************************************************************************/
 
 .section-testimonials {
-  background-color: #fdf2e9;
+  background-color: #f6c1ff;
   display: grid;
   grid-template-columns: 55fr 45fr;
   align-items: center;
@@ -388,7 +389,7 @@
 }
 
 /******************************************************************************************************/
-                             /* MEALS SECTION*/
+                             /* pricing  SECTION*/
 /******************************************************************************************************/
 
 .section-pricing {
@@ -403,12 +404,12 @@
 
 .pricing-plan--starter {
   justify-self: end;
-  border: 2px solid #fdf2e9;
+  border: 2px solid #f6c1ff;
   padding: 4.6rem;
 }
 
 .pricing-plan--complete {
-  background-color: #fdf2e9;
+  background-color: #f6c1ff;
   padding: 4.8rem;
   position: relative;
   overflow: hidden;
@@ -435,7 +436,7 @@
 }
 
 .plan-name {
-  color: #cf711f;
+  color: #7f0094;
   font-weight: 600;
   font-size: 2rem;
   text-transform: uppercase;
@@ -474,10 +475,10 @@
 }
 
 .feature-icon {
-  color: #e67e22;
+  color: #7f0094;
   height: 3.2rem;
   width: 3.2rem;
-  background-color: #fdf2e9;
+  background-color: #f6c1ff;
   margin-bottom: 3.2rem;
   padding: 1.6rem;
   border-radius: 50%;
@@ -509,7 +510,7 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
 
-  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  background-image: linear-gradient(to right bottom, #eb984e, #7f0094);
   overflow: hidden;
 }
 
@@ -536,7 +537,7 @@
       rgba(235, 151, 78, 0.35),
       rgba(230, 125, 34, 0.35)
     ),
-    url("../img/eating.jpg");
+    url("../img/cta-img.png");
   background-size: cover;
   background-position: center;
 }
@@ -563,7 +564,7 @@
   font-family: inherit;
   color: inherit;
   border: none;
-  background-color: #fdf2e9;
+  background-color: #f6c1ff;
   border-radius: 9px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
@@ -574,7 +575,7 @@
 
 .cta *:focus {
   outline: none;
-  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+  box-shadow: 0 0 0 0.8rem rgba(107, 13, 153, 0.5);
 }
 
 /******************************************************************************************************/
@@ -584,6 +585,7 @@
 .footer {
   padding: 12.8rem 0;
   border-top: 1px solid #eee;
+  background-color: #f6c1ff;
 }
 
 .grid--footer {
